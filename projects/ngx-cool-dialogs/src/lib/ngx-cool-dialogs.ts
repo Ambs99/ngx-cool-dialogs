@@ -22,6 +22,7 @@ import {
 } from '@angular/core';
 import { Subject, Observable } from 'rxjs';
 import { NGX_COOL_DIALOGS_CONFIG } from './ngx-cool-dialogs.config';
+import { DomSanitizer } from '@angular/platform-browser';
 
 @Component({
   selector: 'ngx-cool-dialog',
@@ -120,16 +121,18 @@ export class NgxCoolDialog implements OnInit, AfterViewInit, OnDestroy {
   /**
    * The current mapped config
    */
-  get config(): NgxCoolDialogsCompleteConfig {
-    return this._config;
-  }
+  readonly config: NgxCoolDialogsCompleteConfig 
+  //get config(): NgxCoolDialogsCompleteConfig {
+  //  return this._config;
+  //}
 
   /**
    * The current theme
    */
-  get theme(): NgxCoolDialogTheme {
-    return this.config.theme;
-  }
+  readonly theme: NgxCoolDialogTheme 
+  //get theme(): NgxCoolDialogTheme {
+  //  return this.config.theme;
+  //}
 
   /**
    * Initializes the component
@@ -138,7 +141,7 @@ export class NgxCoolDialog implements OnInit, AfterViewInit, OnDestroy {
   constructor(
     @Optional()
     @Inject(NGX_COOL_DIALOGS_CONFIG)
-    private globalConfig: NgxCoolDialogsGlobalConfig
+    private globalConfig: NgxCoolDialogsGlobalConfig, public sanitizer: DomSanitizer
   ) {}
 
   /**

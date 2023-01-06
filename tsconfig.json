@@ -20,7 +20,7 @@
     ],
     "paths": {
       "ngx-cool-dialogs": [
-        "dist/ngx-cool-dialogs"
+        "dist"
       ]
     }
   },

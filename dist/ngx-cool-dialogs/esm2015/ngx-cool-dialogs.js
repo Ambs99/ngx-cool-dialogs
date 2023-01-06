@@ -1,6 +1,0 @@
-/**
- * Generated bundle index. Do not edit.
- */
-export * from './public-api';
-export { fadeInOut as ɵa } from './lib/ngx-cool-dialogs.animation';
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibmd4LWNvb2wtZGlhbG9ncy5qcyIsInNvdXJjZVJvb3QiOiJuZzovL25neC1jb29sLWRpYWxvZ3MvIiwic291cmNlcyI6WyJuZ3gtY29vbC1kaWFsb2dzLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOztHQUVHO0FBRUgsY0FBYyxjQUFjLENBQUM7QUFFN0IsT0FBTyxFQUFDLFNBQVMsSUFBSSxFQUFFLEVBQUMsTUFBTSxrQ0FBa0MsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8qKlxuICogR2VuZXJhdGVkIGJ1bmRsZSBpbmRleC4gRG8gbm90IGVkaXQuXG4gKi9cblxuZXhwb3J0ICogZnJvbSAnLi9wdWJsaWMtYXBpJztcblxuZXhwb3J0IHtmYWRlSW5PdXQgYXMgybVhfSBmcm9tICcuL2xpYi9uZ3gtY29vbC1kaWFsb2dzLmFuaW1hdGlvbic7Il19
